@@ -46,12 +46,12 @@
                 </tr>
 
                 <?php 
-                $no = 1;
+                $id = 1;
                 foreach($santri as $row) :
                  ?>
                 
                 <tr>
-                	<td><?php echo $no++; ?></td>
+                	<td><?php echo $id++; ?></td>
                 	<td><?php echo $row -> nis; ?></td>
                 	<td><?php echo $row -> nama_santri; ?></td>
                 	<td><?php echo $row -> tempat_lahir_santri; ?></td>
